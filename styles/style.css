@@ -77,13 +77,12 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-
-
 }
 .section-title{
     margin-bottom: 30px;
     font-size: 35px;
     font-weight: 700;
+    text-align: center;
 
 }
 .section-description{
@@ -106,4 +105,35 @@ main{
      font-weight: 700;
      font-size: 20;
      color: #474747;
+}
+
+/* What i do style */
+.what-i-do{
+    margin-top: 130px;
+    /* background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center; */
+
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
 }
