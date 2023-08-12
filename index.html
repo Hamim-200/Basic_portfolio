@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/1535749e06.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    
 </head>
+
 <body>
     <header class="header">
         <!-- NAVBAR -->
@@ -27,14 +31,14 @@
                 <h3 class="banner-sub-title">Hi, I am</h3>
                 <h1 class="banner-title">Mary Hardy</h1>
                 <p class="banner-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, natus nemo. Maiores facere dolores consectetur.</p>
-                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary"> <i class="fa-solid fa-download"></i></i> Download CV</button>
             </div>
             <img src="resourses/images/hardy.png" alt="">
         </div>
-
     </header>
 
     <main>
+        <!-- About Section -->
         <section class="about">
             <h3 class="section-title">About Me</h3>
             <p class="section-description">Lorem ipsum dolor harum, deserunt assumenda consequuntur magnam fugit fugiat quo veritatis maxime fuga unde minima aut enim Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste consequuntur enim sed, recusandae exercitationem repudiandae esse aperiam a rerum alias.</p>
@@ -145,11 +149,40 @@
              </div>
 
              <div class="resume-btn">
-                <button class="btn-primary">Download Cv</button>
+                <button class="btn-primary">Download Cv <i class="fa-solid fa-download"></i></button>
              </div>
         </section>
 
+        <!-- Contact Section -->
+        <section class="contact">
+            <div>
+                <h3 class="section-title">Let's Connect</h3>
+                <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio provident repellendus perferendis vel rerum blanditiis.</p>
+                <a href="">
+                    <img src="resourses/images/icons/facebook.png" alt="">
+                </a>
+                <a href="">
+                    <img src="resourses/images/icons/insta.png" alt="">
+                </a>
+                <a href="">
+                    <img src="resourses/images/icons/twitter.png" alt="">
+                </a>
+
+            </div>
+
+            <div>
+                <h3 class="section-title">Let's Message Me</h3>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Your Name">
+                    <input type="email" name="" id="" placeholder="Your Email">
+                    <textarea name="" id="" cols="10" rows="10" placeholder="Message"></textarea>
+                    <input class="btn-primary" type="submit" value="Submit">
+                </form>
+            </div>
+
+        </section>
     </main>
+
     <footer>
 
     </footer>
